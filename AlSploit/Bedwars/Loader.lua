@@ -3,7 +3,7 @@ local LocalPlayer = game.Players.LocalPlayer
 local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 
-local MinecraftFontUrl = "https://github.com/AlSploit/AlSploit/raw/main/AlSploit/Fonts/MinecraftFont"
+local MinecraftFontUrl = "https://github.com/GODCLUTCHER/AlSploit/raw/main/AlSploit/Fonts/MinecraftFont"
 local HttpRequest = request or http_request
 
 local LoadTick = tick()
@@ -232,6 +232,6 @@ task.spawn(function()
 		task.wait(2)
 		task.wait(2.6 + (tick() - LoadTick))
 		
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/AlSploit/AlSploit/main/AlSploit/Bedwars/MainScript.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GODCLUTCHER/AlSploit/main/AlSploit/Bedwars/MainScript.lua"))()
 	end)
 end)
