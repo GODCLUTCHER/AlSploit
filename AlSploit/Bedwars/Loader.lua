@@ -138,7 +138,7 @@ local function MakeAlSploitLoadingScreen(Time)
 	DiscordServer.Position = UDim2.new(0.00147058826, 0, 0.822222233, 0)
 	DiscordServer.Size = UDim2.new(1, 0, 0.0694444478, 0)
 	DiscordServer.FontFace = Font.new(getcustomasset("AlSploit/Fonts/MinecraftFace.json"))
-	DiscordServer.Text = "Discord Server: discord.gg/JJryxTawZa"
+	DiscordServer.Text = "Discord Server: discord.gg/e6ucvnQP"
 	DiscordServer.TextColor3 = Color3.fromRGB(255, 255, 255)
 	DiscordServer.TextScaled = true
 	DiscordServer.TextSize = 16.000
